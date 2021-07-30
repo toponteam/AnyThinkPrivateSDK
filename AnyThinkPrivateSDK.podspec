@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
@@ -19,8 +19,6 @@
   s.source           = { :git => 'https://github.com/toponteam/AnyThinkPrivateSDK.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
-
-  s.static_framework = true
   
   s.requires_arc = true
 
