@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
@@ -38,13 +38,6 @@
     ss.vendored_library = 'Kidoz/lib/libKidozSDK.a'
   end
  
-  
-    s.subspec 'Ogury' do |ss|
-    ss.ios.deployment_target = '9.0'
-    ss.vendored_frameworks = 'Ogury/OguryAds.framework','Ogury/OguryChoiceManager.framework','Ogury/OMSDK_Oguryco.framework'
-  end
-  
-  
     s.subspec 'Vungle' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.vendored_frameworks = 'Vungle/VungleSDK.framework'
