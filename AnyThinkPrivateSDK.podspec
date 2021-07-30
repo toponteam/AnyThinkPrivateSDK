@@ -8,15 +8,15 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
                        DESC
-  s.homepage         = 'https://github.com/toponteam/TopOn_iOS_Pod_Private_SDK.git'
+  s.homepage         = 'https://github.com/toponteam/AnyThinkPrivateSDK.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GUO PENG' => 'ios' }
-  s.source           = { :git => 'https://github.com/toponteam/TopOn_iOS_Pod_Private_SDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/toponteam/AnyThinkPrivateSDK.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
 
