@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
@@ -41,5 +41,8 @@
     ss.vendored_frameworks = 'Vungle/VungleSDK.framework'
   end
   
-  
+    s.subspec 'FBBidding' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.vendored_frameworks = 'FBBidding/FBBiddingKit.framework'
+  end
 end
