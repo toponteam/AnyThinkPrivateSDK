@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '1.1.0'
+  s.version          = '1.3.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
