@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
@@ -30,13 +30,13 @@
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64' }
 
-    s.subspec 'ATHYPangleAdapter' do |ss|
-    ss.ios.deployment_target = '9.0'
-    ss.dependency 'Ads-Global-Beta','4.1.0.0'
-    ss.dependency 'AnyThinkiOS/AnyThinkSDK','5.7.81'
-    ss.vendored_frameworks = 'Adapters/AnyThinkPangleAdapter.framework'
+  #   s.subspec 'ATHYPangleAdapter' do |ss|
+  #   ss.ios.deployment_target = '9.0'
+  #   ss.dependency 'Ads-Global-Beta','4.1.0.0'
+  #   ss.dependency 'AnyThinkiOS/AnyThinkSDK','5.7.81'
+  #   ss.vendored_frameworks = 'Adapters/AnyThinkPangleAdapter.framework'
     
-  end
+  # end
   
     s.subspec 'ATHYTTAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
