@@ -30,19 +30,19 @@
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64' }
 
-  s.subspec 'Kidoz' do |ss|
+    s.subspec 'ATPangleAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.source_files  = "Kidoz/lib/*.h"
-    ss.vendored_library = 'Kidoz/lib/libKidozSDK.a'
-  end
- 
-    s.subspec 'Vungle' do |ss|
-    ss.ios.deployment_target = '9.0'
-    ss.vendored_frameworks = 'Vungle/VungleSDK.framework'
+    ss.dependency 'Ads-Global-Beta','4.1.0.0'
+    ss.dependency 'AnyThinkiOS/AnyThinkSDK'
+    ss.vendored_frameworks = 'Adapters/AnyThinkPangleAdapter.framework'
+    
   end
   
-    s.subspec 'FBBidding' do |ss|
+    s.subspec 'ATTTAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.vendored_frameworks = 'FBBidding/FBBiddingKit.framework'
+    ss.vendored_frameworks = 'Adapters/AnyThinkTTAdapter.framework'
+    ss.dependency 'Ads-CN-Beta','4.1.0.0'
+    ss.dependency 'AnyThinkiOS/AnyThinkSDK'
   end
+
 end
