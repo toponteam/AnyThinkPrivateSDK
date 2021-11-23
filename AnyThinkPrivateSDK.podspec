@@ -8,7 +8,7 @@
 
   Pod::Spec.new do |s|
   s.name             = 'AnyThinkPrivateSDK'
-  s.version          = '0.5.0'
+  s.version          = '1.1.0'
   s.summary          = 'AnyThinkPrivate'
   s.description      = <<-DESC
       AnyThinkPrivateSDK,Vungle,Kidoz,Ogury,Appnext
@@ -33,7 +33,7 @@
     s.subspec 'ATPangleAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.dependency 'Ads-Global-Beta','4.1.0.0'
-    ss.dependency 'AnyThinkiOS/AnyThinkSDK'
+    ss.dependency 'AnyThinkiOS/AnyThinkSDK','5.7.81'
     ss.vendored_frameworks = 'Adapters/AnyThinkPangleAdapter.framework'
     
   end
@@ -42,7 +42,7 @@
     ss.ios.deployment_target = '9.0'
     ss.vendored_frameworks = 'Adapters/AnyThinkTTAdapter.framework'
     ss.dependency 'Ads-CN-Beta','4.1.0.0'
-    ss.dependency 'AnyThinkiOS/AnyThinkSDK'
+    ss.dependency 'AnyThinkiOS/AnyThinkSDK','5.7.81'
   end
 
 end
