@@ -30,7 +30,7 @@
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64' }
 
-    s.subspec 'ATPangleAdapter' do |ss|
+    s.subspec 'ATHYPangleAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.dependency 'Ads-Global-Beta','4.1.0.0'
     ss.dependency 'AnyThinkiOS/AnyThinkSDK','5.7.81'
@@ -38,7 +38,7 @@
     
   end
   
-    s.subspec 'ATTTAdapter' do |ss|
+    s.subspec 'ATHYTTAdapter' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.vendored_frameworks = 'Adapters/AnyThinkTTAdapter.framework'
     ss.dependency 'Ads-CN-Beta','4.1.0.0'
