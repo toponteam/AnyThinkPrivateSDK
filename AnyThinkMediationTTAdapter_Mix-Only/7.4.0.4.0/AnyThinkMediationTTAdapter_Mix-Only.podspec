@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
    
   s.dependency 'AnyThinkiOS','>=6.4.94'
 
-  s.dependency 'Ads-CN-Beta/BUAdSDK', '7.4.0.4'
-  s.dependency 'Ads-CN-Beta/CSJMediation-Only', '7.4.0.4'
+  s.dependency 'Ads-CN/BUAdSDK', '7.4.0.4'
+  s.dependency 'Ads-CN/CSJMediation-Only', '7.4.0.4'
   
 end
