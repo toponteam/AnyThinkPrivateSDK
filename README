@@ -1,0 +1,6 @@
+如何使用? Podfile顶部指定添加：
+source 'https://github.com/toponteam/AnyThinkPrivateSDK.git'
+
+声明：本仓库中所提供Adapter仅作为兼容需求使用，需要开发者自测验收，自测没有问题后使用。
+
+
