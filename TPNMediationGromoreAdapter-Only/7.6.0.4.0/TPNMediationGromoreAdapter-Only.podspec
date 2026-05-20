@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = "AnyThinkGromoreAdapter-7.6.0.4.0/AnyThinkGromoreAdapter.xcframework"
   
-  s.dependency 'AnyThinkiOS','>=6.4.94', '<6.5.60'
+  s.dependency 'TPNiOS','>=6.4.94', '<6.5.60'
 
   s.dependency 'Ads-CN/BUAdSDK', '7.6.0.4'
   s.dependency 'Ads-CN/CSJMediation-Only', '7.6.0.4'
